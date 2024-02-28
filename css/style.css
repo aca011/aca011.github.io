@@ -1,0 +1,954 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* MLECNI PUT */
+
+
+.indeX {
+
+    background-color: #030b2b;
+    display: grid;
+    grid-template-columns: 100px 400px 400px 570px;
+    grid-template-rows: 100px 55px 165px 650px 160px;
+}
+
+.indeks {
+
+    display: grid;
+    grid-column: 1 / 7;
+    background-color: #010318;
+}
+
+.pre-header {
+
+    width: 1450px;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+
+.mp .p {
+
+    padding-left: 100px;
+    font-style: oblique;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    height: 0;
+
+}
+
+.mp li a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.meni {
+
+    text-align: right;
+}
+
+.meni .m {
+
+    display: inline;
+    padding-right: 15px;
+}
+
+
+.meni .m a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: right;
+    transition: 0.6s;
+}
+
+.m a:hover {
+
+    background-color: #131753;
+}
+
+
+.n-header {
+
+    background-color: #080e2b;
+    height: 35px;
+    color: rgba(245, 245, 245, 0.813);
+    padding-top: 20px;
+    font-style: italic;
+    grid-column: 1 / 7;
+}
+
+.n-header .meni {
+
+    list-style: none;
+}
+
+
+.n-header p1 {
+
+    font-style: italic;
+    padding-left: 100px;
+    font-size: 16px;
+}
+
+
+.text-section {
+
+    background-image: url('../slike/me.jpg');
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    grid-column: 1 / 7;
+    padding-bottom: 30px;
+}
+
+.text-section h1 {
+
+    font-variant: initial;
+    margin-bottom: 10px;
+}
+
+
+.blokovi-section {
+    display: grid;
+    margin-top: 60px;
+    margin-bottom: 130px;
+    grid-row-gap: 50px;
+    grid-column: 2 / 7;
+    grid-column-start: 2;
+    grid-template-columns: 400px 400px 400px;
+    grid-column-gap: 60px;
+}
+
+.blokovi-section img {
+
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.blokovi-section p {
+
+    padding-right: 36px;
+    padding-left: 36px;
+    font-size: 20px;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.blokovi-section .blokovi-item1 {
+
+    color: aliceblue;
+    border: 1px solid;
+    transition: 0.5s;
+    float: left;
+    text-align: center;
+}
+
+.blokovi-section .blokovi-item1:hover {
+
+    background-color: #092175;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.blokovi-section .blokovi-item2 {
+
+    color: aliceblue;
+    border: 1px solid;
+    transition: 0.5s;
+    float: left;
+    text-align: center;
+}
+
+.blokovi-section .blokovi-item2:hover {
+
+    background-color: #092175;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.blokovi-section .blokovi-item3 {
+
+    color: aliceblue;
+    border: 1px solid;
+    transition: 0.5s;
+    float: left;
+    text-align: center;
+}
+
+.blokovi-section .blokovi-item3:hover {
+
+    background-color: #092175;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+
+
+.after-header {
+
+    background-color: rgb(4, 3, 34);
+    color: rgb(218, 225, 231);
+
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 16px;
+
+    list-style-type: none;
+    text-align: center;
+    grid-column: 1/7;
+}
+
+.after-header p5 {
+
+    padding-left: 35px;
+    margin-right: 30px;
+}
+
+
+.after-header .zavrsno li a {
+
+    background-color: rgb(0, 0, 0);
+
+    text-decoration: underline;
+    padding-left: 10px;
+    color: rgb(115, 105, 177);
+}
+
+
+
+
+
+/* SUNCEV */
+
+
+.Suncevsistem {
+
+    background-color: #330202;
+    display: grid;
+    grid-template-columns: 100px 450px 450px 450px auto;
+    grid-template-rows: 100px 1150px 300px 100px;
+}
+
+.sunce1 {
+
+    display: grid;
+    grid-column: 1 / 6;
+    background-color: #3d0909;
+}
+
+.menis {
+
+    width: 1450px;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.Sunmeni {
+
+    height: 0;
+    text-align: left;
+}
+
+.Sunmeni .liSun {
+
+    padding-left: 100px;
+    font-size: 32px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.Sunmeni li a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.ulmeni {
+
+    text-align: right;
+}
+
+.ulmeni .Link {
+
+    display: inline;
+
+}
+
+.ulmeni .Link a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    font-style: oblique;
+    transition: 0.6s;
+}
+
+
+.ulmeni .Link a:hover {
+
+    background-color: #2e0404;
+}
+
+
+
+.sunce-tekst {
+
+    display: grid;
+    grid-template-columns: 50px 600px 130px 500px;
+    grid-template-rows: 400px 500px 400px;
+    column-gap: 50px;
+    padding-top: 100px;
+    row-gap: 60px;
+}
+
+
+.sunce-tekst .prg1 {
+
+    grid-area: 1 / 2 / 2 / 3;
+    color: white;
+    border: 2px solid;
+    border-color: #3f0000;
+
+    height: 310px;
+    font-size: 25px;
+    text-align: left;
+    text-align: justify;
+    padding: 20px 30px 0 30px;
+
+    transition: 0.5s;
+
+}
+
+.sunce-tekst .prg1:hover {
+
+    background-color: #3d0000;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.sunce-tekst .prg2 {
+
+
+    grid-area: 2 / 4 / 3 / 5;
+    color: white;
+
+    font-size: 25px;
+    text-align: center;
+    text-align: justify;
+
+    height: 442px;
+    padding: 20px 30px 5px 30px;
+    border: 2px solid;
+    border-color: #570000;
+    transition: 0.5s;
+    row-gap: 20px;
+}
+
+
+.sunce-tekst .prg2:hover {
+
+    background-color: #490101c7;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.sunce-tekst .img01 {
+
+    grid-area: 1 / 4 / 2 / 5;
+    display: inline;
+    color: whitesmoke;
+    border: 0.5px solid;
+    box-shadow: 6px 8px 16px 6px rgba(0, 0, 0, 0.5);
+    z-index: 6;
+    background-color: #000000;
+
+}
+
+.sunce-tekst .img02 {
+
+    grid-area: 2/ 2 / 3 / 3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline;
+    color: whitesmoke;
+    border: 0.5px solid;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    z-index: 6;
+    background-color: #000000;
+
+}
+
+.padajucimeni {
+
+    display: grid;
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.dropdown {
+
+    display: inline;
+    width: 350px;
+    height: 50px;
+    transition: 0.6s;
+    position: relative;
+    background-color: #460101;
+    box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.dropdbtn {
+    background-color: #2b000010;
+    color: #ffffff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 0.6s;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #521212;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    z-index: 6;
+
+}
+
+.dropdown-content p {
+
+    color: #e7d6d6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.dropdown-content p:hover {
+    background-color: #521212;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: #521212;
+}
+
+.padajucimeni2 {
+    display: grid;
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.dropdown2 {
+    display: inline;
+    width: 400px;
+    height: 50px;
+    transition: 0.6s;
+    position: relative;
+    background-color: #460101;
+    box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.dropdbtn2 {
+    background-color: #2b000010;
+    color: #ffffff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 0.6s;
+}
+
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: #521212;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    z-index: 6;
+
+}
+
+.dropdown2-content p {
+    color: #e7d6d6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-table;
+    font-size: 18px;
+
+}
+
+.dropdown2-content p:hover {
+    background-color: #521212;
+}
+
+.dropdown2:hover .dropdown2-content {
+    display: block;
+}
+
+.dropdown2:hover {
+    background-color: #521212;
+}
+
+
+.padajucimeni1 {
+
+    display: grid;
+    grid-area: 3 / 4 / 4 / 5;
+    margin-left: 30px;
+}
+
+.dropdown1 {
+
+    display: inline;
+    width: 400px;
+    height: 50px;
+    transition: 0.6s;
+    position: relative;
+    background-color: #460101;
+    box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.dropdbtn1 {
+    background-color: #2b000010;
+    color: #ffffff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 0.6s;
+}
+
+.dropdown1-content {
+
+    display: none;
+    position: absolute;
+    background-color: #521212;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    z-index: 6;
+
+}
+
+.dropdown1-content p {
+    color: #e7d6d6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.dropdown1-content p:hover {
+    background-color: #521212;
+}
+
+.dropdown1:hover .dropdown1-content {
+    display: block;
+}
+
+.dropdown1:hover {
+    background-color: #521212;
+}
+
+
+
+
+/* CENJICE */
+
+
+.facts {
+
+    display: grid;
+    grid-template-columns: 50px 600px 600px auto;
+    grid-template-rows: 150px 500px 500px 100px;
+    row-gap: 50px;
+    column-gap: 50px;
+    background-image: url('../slike/me.jpg');
+}
+
+.cinjenice {
+
+    grid-column: 1 / 5;
+    color: rgb(255, 255, 255);
+    border-bottom: 20px solid #03081d38;
+}
+
+.zanimljive-section {
+
+    width: 1350px;
+    padding-top: 40px;
+    height: 50px;
+    padding-left: 100px;
+    background-image: url('../slike/me.jpg');
+}
+
+.zanimljive .p3 {
+
+    height: 0;
+    font-weight: bolder;
+    font-style: oblique;
+    text-transform: none;
+    font-size: 32px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+
+.zanimljive-section .zanimljive .p3 a {
+
+    color: white;
+    text-decoration: none;
+    text-decoration: underline #050e30;
+}
+
+.cinjenice .menustrcinj {
+
+    text-align: right;
+}
+
+.cinjenice .menustrcinj li {
+
+    display: inline;
+    padding-right: 15px;
+}
+
+.cinjenice .menustrcinj li a {
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    font-style: oblique;
+    transition: 0.6s;
+}
+
+.cinjenice .menustrcinj li a:hover {
+
+    background-color: #0b1a53;
+}
+
+
+.facts-section {
+
+    display: grid;
+    grid-column: 2/4;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 550px;
+    column-gap: 150px;
+    text-align: center top;
+    color: #c5c5c5;
+}
+
+
+.facts-section .paragraf {
+
+    text-align: justify;
+    font-size: 21px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.facts-section .paragraf .Naslov {
+
+    font-size: larger;
+}
+
+.facts-section img {
+
+    margin-bottom: 20px;
+    height: 230px;
+    width: 430px;
+}
+
+.facts-prva {
+    text-align: center;
+    background-color: #00020f88;
+    border: 10px solid #0000007a;
+    padding-top: 20px;
+    font-style: oblique;
+    transition: 0.5s;
+}
+
+.facts-prva p {
+
+    width: 430px;
+}
+
+.facts-prva:hover {
+
+    margin-top: -10px;
+    background-color: #010c3280;
+}
+
+.facts-druga {
+
+    text-align: center;
+    background-color: #00020f88;
+    border: 10px solid #0000007a;
+    padding-top: 20px;
+    font-style: oblique;
+    transition: 0.5s;
+}
+
+.facts-druga .prtekst p {
+
+    width: 430px;
+}
+
+.facts-druga:hover {
+
+    margin-top: -10px;
+    background-color: #010c3280;
+}
+
+.cinjenice-section {
+
+    display: grid;
+    grid-column: 2/4;
+    grid-template-columns: 415px 415px 415px;
+    grid-template-rows: 530px;
+    column-gap: 50px;
+    margin-top: 20px;
+    text-align: center top;
+    color: #c5c5c5;
+}
+
+.cinjenice-section p {
+
+    margin-top: 100px;
+    display: inline;
+}
+
+.facts-treca {
+
+    padding-left: 30px;
+    padding-top: 20px;
+    border: 10px solid #0000007a;
+    background-color: #00020f88;
+    transition: 0.5s;
+    font-style: oblique;
+}
+
+.facts-treca .Naslov {
+
+    font-size: 21.6px;
+}
+
+.facts-treca .paragraf {
+
+    text-align: justify;
+    width: 340px;
+    font-size: 19px;
+}
+
+.facts-treca:hover {
+
+    margin-top: -10px;
+    background-color: #010c3280;
+}
+
+
+.facts-cetvrta {
+
+    background-color: #00020f88;
+    border: 10px solid #0000007a;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-style: oblique;
+    transition: 0.5s;
+}
+
+.facts-cetvrta .Naslov {
+
+    text-align: left;
+    font-size: 21.6px;
+}
+
+.facts-cetvrta .paragraf {
+
+    text-align: justify;
+    width: 340px;
+    font-size: 19px;
+}
+
+.facts-cetvrta:hover {
+
+    margin-top: -10px;
+    background-color: #010c3280;
+}
+
+.facts-peta {
+
+    background-color: #00020f88;
+    border: 10px solid #0000007a;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-style: oblique;
+    transition: 0.5s;
+}
+
+.facts-peta .Naslov {
+
+    text-align: left;
+    font-size: 21.6px;
+}
+
+.facts-peta .paragraf {
+
+    text-align: justify;
+    width: 340px;
+    font-size: 19px;
+}
+
+.facts-peta:hover {
+
+    margin-top: -10px;
+    background-color: #010c3280;
+}
+
+/* KONTAKT */
+
+
+.kontakt {
+
+    display: grid;
+    grid-template-columns: 50px 650px 100px 490px auto;
+    grid-template-rows: 100px 300px 200px auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    background-color: rgb(21, 9, 64);
+}
+
+.ceader {
+
+    display: grid;
+    grid-column: 1/6;
+    background-color: rgb(26, 14, 71);
+}
+
+.pre-ceader{
+
+    width: 1350px;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.naslovc li {
+
+    grid-column: 1 / 4;
+    list-style-type: none;
+    height: 0;
+}
+
+.naslovc li a {
+
+    color: #bdb9b9;
+    font-size: 37px;
+    font-style: italic;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.menic {
+    text-align: right;
+}
+
+.menic li {
+    display: inline;
+}
+
+.menic li a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-style: oblique;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.menic li a:hover {
+    background-color: indigo;
+}
+
+.contacts {
+    grid-area: 3 / 2 / 3 / 4;
+    color: rgb(215, 214, 214);
+}
+
+.contacts .forma {
+    grid-column: 1/2;
+    font-size: 20px;
+}
+
+.tekst {
+
+    grid-area: 2 / 4 / 3 / 5;
+    padding: 10px 25px 0px 20px;
+    font-size: 23px;
+    font-style: oblique;
+    text-align: justify;
+    color: rgb(204, 206, 209);
+    border: rgb(47, 28, 112) 5px solid;
+    background-color: rgb(38, 21, 99);
+    transition: 0.6s;
+}
+
+.tekst:hover {
+    margin-top: -6px;
+    background-color: rgb(61, 45, 120);
+}
+
+
+.komentar {
+    height: 20px;
+}
+
+.planetarijum {
+
+    grid-area: 2 / 2 / 3 / 3;
+    font-size: 23px;
+    font-style: italic;
+    text-align: justify;
+    padding: 10px 25px 0px 30px;
+    border: rgb(41, 25, 103) 5px solid;
+    background-color: rgb(33, 19, 82);
+    transition: 0.6s;
+    width: 610px;
+    color: rgb(255, 255, 255);
+}
+
+.planetarijum:hover {
+
+    margin-top: -6px;
+    border-color: rgb(75, 56, 140) ;
+    background-color: rgb(61, 45, 120);
+}
+
+.linkp li a {
+
+    color: #e4e6ef;
+    text-decoration: underline;
+    transition: 0.6s;
+    list-style-type: none;
+}
+
+ .linkp li a:hover{
+
+    color: #abaebb ;
+    background-color: rgba(131, 107, 218, 0.047) ;
+}
